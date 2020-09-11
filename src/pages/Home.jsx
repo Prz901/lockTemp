@@ -9,7 +9,7 @@ export default function Home() {
         <div className="text-white">
           <h1 className="text-3xl par">Security lock</h1>
         </div>
-        <div className="flex items-center text-white text-xl ">
+        <div className="flex items-center text-white text-xl">
           <p className="mr-16 cursor-pointer hover:text-danger-600">Home</p>
           <p className="mr-16 cursor-pointer hover:text-danger-600">Sobre</p>
           <p className="mr-16 cursor-pointer hover:text-danger-600">Contatos</p>
@@ -35,51 +35,35 @@ export default function Home() {
         className="absolute bottom-0 left-0 opacity-25"
       />
 
-      <div className="flex flex-col items-end text-white justify-center h-full container mx-auto ">
+      <div className="flex flex-col items-end text-white justify-center h-full container mx-auto relative z-10 ">
         <div>
-          <div className="">
-            <p className="text-white font-medium text-5xl par">
-              <i className="fas fa-lock text-white  locked hover:text-danger-500 mr-4" />
+            <p className="text-white font-medium text-6xl par">
               Security Lock
+              <i className="fas fa-lock text-white hover:text-danger-500 ml-6" />
             </p>
-          </div>
-          <div className="mt-4">
-            <h2 className="text-white text-xl border-danger-500 border-l-2">
+          <div className="mt-4 border-danger-500 border-l-4">
+            <h2 className="text-white text-3xl ml-2">
               You live free and we care about your things
-              <span className="text-danger-500 text-xl ml-2">
+              <span className="text-danger-500 text-4xl ml-2">
                 Your Security
               </span>
             </h2>
           </div>
           {/* <i className="fas fa-lock-open text-white cursor-pointer unlocked"/> */}
-          <div className="flex items-center text-white mt-6">
-            <p className="text-lg cursor-pointer hover:text-danger-500 border-b border-solid border-danger-500">
-              Lorem
-            </p>
-            <p className="ml-4 text-lg cursor-pointer hover:text-danger-500 border-b border-solid border-danger-500">
-              Lorem
-            </p>
-            <p className="ml-4 text-lg cursor-pointer hover:text-danger-500 border-b border-solid border-danger-500">
-              Lorem
-            </p>
-            <p className="ml-4 text-lg cursor-pointer hover:text-danger-500 border-b border-solid border-danger-500">
-              Lorem
-            </p>
-          </div>
 
           <div className="flex items-center mt-6 justify-between w-1/2">
-            <p className="text-white bg-danger-500 hover:bg-danger-600 cursor-pointer p-3 text-lg rounded-lg">
+            <p className="text-white bg-danger-500 hover:bg-danger-600 cursor-pointer font-semibold w-full p-3 flex justify-center rounded-lg text-2xl">
               About Us
             </p>
             <div className="flex items-center">
-              <div className="">
-                <i className="text-white  fab fa-linkedin cursor-pointer hover:text-danger-600 text-4xl" />
+              <div className="ml-8">
+                <i className="text-white  fab fa-linkedin cursor-pointer hover:text-danger-600 text-5xl" />
               </div>
-              <div className="ml-4">
-                <i className="text-white  fab fa-instagram cursor-pointer  hover:text-danger-600 text-4xl" />
+              <div className="ml-8">
+                <i className="text-white  fab fa-instagram cursor-pointer  hover:text-danger-600 text-5xl" />
               </div>
-              <div className="ml-4">
-                <i class="fab fa-facebook text-white  cursor-pointer hover:text-danger-600 text-4xl"></i>
+              <div className="ml-8">
+                <i class="fab fa-facebook text-white  cursor-pointer hover:text-danger-600 text-5xl"></i>
               </div>
             </div>
           </div>
