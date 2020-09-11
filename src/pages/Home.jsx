@@ -10,10 +10,10 @@ export default function Home() {
           <h1 className="text-3xl par">Security lock</h1>
         </div>
         <div className="flex items-center text-white text-xl ">
-          <p className="ml-6 cursor-pointer hover:text-danger-600">Lorem</p>
-          <p className="ml-6 cursor-pointer hover:text-danger-600">Lorem</p>
-          <p className="ml-6 cursor-pointer hover:text-danger-600">Lorem</p>
-          <p className="ml-6 cursor-pointer hover:text-danger-600">Lorem</p>
+          <p className="mr-16 cursor-pointer hover:text-danger-600">Home</p>
+          <p className="mr-16 cursor-pointer hover:text-danger-600">Sobre</p>
+          <p className="mr-16 cursor-pointer hover:text-danger-600">Contatos</p>
+          <p className="cursor-pointer hover:text-danger-600">Saiba Mais</p>
         </div>
       </div>
       {/* <div className=" container mx-auto">
@@ -35,7 +35,7 @@ export default function Home() {
         className="absolute bottom-0 left-0 opacity-25"
       />
 
-      <div className="flex flex-col items-end text-white justify-center h-full ">
+      <div className="flex flex-col items-end text-white justify-center h-full container mx-auto ">
         <div>
           <div className="">
             <p className="text-white font-medium text-5xl par">
