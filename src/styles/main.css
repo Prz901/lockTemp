@@ -10,3 +10,7 @@
 .unlocked :hover::before{
   display: inline-block;
 } */
+
+.par{
+  font-family: ParisParisienneien;
+}
