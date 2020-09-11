@@ -5,7 +5,7 @@ import image from "../utils/imageBackground/lion.jpg";
 export default function Home() {
   return (
     <div className="h-screen bg-black  border-solid border-t-4 border-danger-700">
-      <div className="flex items-start justify-between container mx-auto mt-8">
+      <div className="flex items-start justify-between container mx-auto mt-8 relative z-10">
         <div className="text-white">
           <h1 className="text-3xl par">Security lock</h1>
         </div>
