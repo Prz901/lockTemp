@@ -10,7 +10,7 @@ export default function Hero() {
 
         <div className='absolute top-half-10 px-56'>
           <h1 className='text-gray-200 text-8xl font-bold py-2 border-b border-solid border-gray-200'>Music</h1>
-          <h2 className='text-gray-200 text-3xl font-semibold py-6'>Happines and safe</h2>
+          <h2 className='text-gray-200 text-3xl font-semibold py-6'>Happines and safe sound and mound</h2>
           <h2 className='text-gray-200 text-3xl font-semibold py-6'>Safe and Sound</h2>
           <h2 className='text-gray-200 text-3xl font-semibold py-6'>Blind by the ligths</h2>
         </div>

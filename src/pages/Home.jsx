@@ -7,6 +7,7 @@ import Header2 from '../Components/Hero2/Header'
 import Hero2 from '../Components/Hero2/Hero'
 
 import Hero3 from '../Components/Hero3/Hero'
+import Hero4 from '../Components/Hero4/Hero'
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
       </div>
       <div className='min-h-screen bg-gray-900  border-solid border-t-4 border-primary-800'>
         <Hero3 />
+      </div>
+      <div className='min-h-screen border-solid border-t-4 border-primary-800'>
+        <Hero4 />
       </div>
     </>
   )
