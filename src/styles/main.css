@@ -11,6 +11,25 @@
   display: inline-block;
 } */
 
-.par{
+.par {
   font-family: ParisParisienneien;
+}
+
+.top-half-30 {
+  top: 30%;
+}
+
+.top-half-20 {
+  top: 20%;
+}
+.top-half-10 {
+  top: 10%;
+}
+
+.text-7xl {
+  font-size: 5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
 }
